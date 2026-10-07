@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Cake — торты на заказ</title>
+  <meta name="description" content="Домашняя кондитерская. Торты, чизкейки, капкейки на заказ. Свежие ингредиенты, ручная работа.">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- НАВИГАЦИЯ -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">🧁</span>
+        <span class="logo-text">Sweet<em>Cake</em></span>
+      </a>
+      <nav class="menu">
+        <a href="#catalog">Каталог</a>
+        <a href="#gallery">Работы</a>
+        <a href="#how">Как заказать</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a href="#contacts" class="nav-btn">Заказать торт</a>
+      <button class="burger" id="burger">☰</button>
+    </div>
+  </header>
+
+  <!-- ГЛАВНЫЙ ЭКРАН -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="badge">🥇 500+ довольных клиентов</div>
+        <h1>Домашние торты<br>на заказ</h1>
+        <p>Готовлю с любовью из натуральных ингредиентов. Без консервантов, без магазинной химии. Только для ваших праздников.</p>
+        <div class="hero-btns">
+          <a href="#catalog" class="btn btn-primary">Выбрать торт</a>
+          <a href="#gallery" class="btn btn-ghost">Посмотреть работы</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>500+</strong><span>заказов</span></div>
+          <div><strong>5 лет</strong><span>опыта</span></div>
+          <div><strong>4.9★</strong><span>рейтинг</span></div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80" alt="Торт">
+      </div>
+    </div>
+  </section>
+
+  <!-- О НАС -->
+  <section class="section about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=700&q=80" alt="Кондитер">
+      </div>
+      <div class="about-text">
+        <span class="label">О нас</span>
+        <h2>Готовим торты, как для себя</h2>
+        <p>Мы — маленькая домашняя кондитерская. Не завод, не цех — уютная кухня, где каждый торт делается вручную. Используем только натуральные сливки, настоящее шоколад и свежие фрукты.</p>
+        <ul class="about-list">
+          <li>✅ Натуральные ингредиенты, без консервантов</li>
+          <li>✅ Индивидуальный дизайн под ваш праздник</li>
+          <li>✅ Бесплатная дегустация при заказе от 3000 ₽</li>
+          <li>✅ Доставка по городу в удобное время</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- КАТАЛОГ -->
+  <section class="section catalog" id="catalog">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">Каталог</span>
+        <h2>Наши торты</h2>
+        <p>Каждый торт можно адаптировать под вас: изменить вес, декор, надпись</p>
+      </div>
+
+      <div class="catalog-grid">
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80" alt="Красный бархат">
+          <div class="product-body">
+            <h3>Красный бархат</h3>
+            <p>Нежные коржи с крем-чизом и ягодами</p>
+            <div class="product-footer">
+              <span class="price">от 1 800 ₽/кг</span>
+              <a href="#contacts" class="order-link">Заказать →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500&q=80" alt="Шоколадный">
+          <div class="product-body">
+            <h3>Шоколадный трюфель</h3>
+            <p>Бельгийский шоколад и ганаш</p>
+            <div class="product-footer">
+              <span class="price">от 2 000 ₽/кг</span>
+              <a href="#contacts" class="order-link">Заказать →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1568051243851-f9b136146e97?w=500&q=80" alt="Чизкейк">
+          <div class="product-body">
+            <h3>Чизкейк Нью-Йорк</h3>
+            <p>Классический с ягодным соусом</p>
+            <div class="product-footer">
+              <span class="price">от 1 900 ₽/кг</span>
+              <a href="#contacts" class="order-link">Заказать →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&q=80" alt="Медовик">
+          <div class="product-body">
+            <h3>Медовик</h3>
+            <p>Тонкие коржи со сметанным кремом</p>
+            <div class="product-footer">
+              <span class="price">от 1 600 ₽/кг</span>
+              <a href="#contacts" class="order-link">Заказать →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&q=80" alt="Капкейки">
+          <div class="product-body">
+            <h3>Капкейки</h3>
+            <p>Набор из 6 или 12 штук, разный декор</p>
+            <div class="product-footer">
+              <span class="price">от 900 ₽/набор</span>
+              <a href="#contacts" class="order-link">Заказать →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80" alt="Бенто">
+          <div class="product-body">
+            <h3>Бенто-торт</h3>
+            <p>Мини-торт на 1-2 человек</p>
+            <div class="product-footer">
+              <span class="price">от 1 200 ₽</span>
+              <a href="#contacts" class="order-link">Заказать →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ГАЛЕРЕЯ -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">Работы</span>
+        <h2>Галерея тортов</h2>
+        <p>Немного наших работ за последние месяцы</p>
+      </div>
+
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=500&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1586985289906-406988974504?w=500&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1519869325930-281384150729?w=500&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1602351447937-745cb720612f?w=500&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1562440499-64c9a111f713?w=500&q=80" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- КАК ЗАКАЗАТЬ -->
+  <section class="section how" id="how">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">Как заказать</span>
+        <h2>4 простых шага</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Заявка</h3>
+          <p>Пишете мне в Telegram или через форму на сайте</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Обсуждение</h3>
+          <p>Выбираем вкус, вес, декор и дату</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Предоплата 50%</h3>
+          <p>Бронирую дату и закупаю продукты</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Готово!</h3>
+          <p>Забираете или привожу сама в назначенное время</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ОТЗЫВЫ -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">Отзывы</span>
+        <h2>Что говорят клиенты</h2>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>«Заказывала торт на день рождения дочки — получился просто волшебный! Все гости в восторге. Спасибо огромное!»</p>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="">
+            <div>
+              <strong>Анна Петрова</strong>
+              <span>торт «Красный бархат»</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>«Пробовала много кондитеров, но эти — лучшие. Шоколадный трюфель — просто мечта. Заказываю уже третий раз!»</p>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="">
+            <div>
+              <strong>Мария Иванова</strong>
+              <span>шоколадный трюфель</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review">
+          <div class="stars">★★★★★</div>
+          <p>«Заказывал бенто на годовщину. Жена была в восторге! Красиво, вкусно, недорого. Рекомендую от души.»</p>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="">
+            <div>
+              <strong>Дмитрий Соколов</strong>
+              <span>бенто-торт</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section class="section contacts" id="contacts">
+    <div class="container contacts-inner">
+      <div class="contacts-text">
+        <span class="label">Контакты</span>
+        <h2>Заказать торт</h2>
+        <p>Оставьте заявку — отвечу в течение 15 минут. Или пишите сразу в мессенджеры.</p>
+
+        <div class="contact-list">
+          <a href="tel:+79991234567" class="contact-item">
+            <span class="contact-icon">📞</span>
+            <div><strong>Телефон</strong><br>+7 (999) 123-45-67</div>
+          </a>
+          <a href="https://t.me/" class="contact-item">
+            <span class="contact-icon">✈️</span>
+            <div><strong>Telegram</strong><br>@sweet_cake</div>
+          </a>
+          <a href="#" class="contact-item">
+            <span class="contact-icon">📷</span>
+            <div><strong>Instagram</strong><br>@sweet.cake</div>
+          </a>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div><strong>Адрес</strong><br>г. Москва, ул. Пушкина, 10</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Спасибо! Заявка отправлена. Мы свяжемся с вами.')">
+        <h3>Оставить заявку</h3>
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="tel" placeholder="Телефон" required>
+        <input type="text" placeholder="Какой торт нужен?">
+        <textarea placeholder="Комментарий (дата, вес, пожелания)" rows="3"></textarea>
+        <button type="submit" class="btn btn-primary full">Отправить заявку</button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку данных</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ФУТЕР -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo">
+        <span class="logo-icon">🧁</span>
+        <span class="logo-text">Sweet<em>Cake</em></span>
+      </div>
+      <p>© 2026 Sweet Cake. Домашняя кондитерская. Все права защищены.</p>
+      <div class="social">
+        <a href="https://t.me/">Telegram</a>
+        <a href="#">Instagram</a>
+        <a href="#">VK</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
